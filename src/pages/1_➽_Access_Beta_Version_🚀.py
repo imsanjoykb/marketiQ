@@ -1,12 +1,6 @@
 import streamlit as st
-import os
-import hashlib
-from sqlalchemy import create_engine
-from dotenv import load_dotenv
 import templates.page_config
 
-load_dotenv()
-page_icon = os.environ.get('PAGE_ICON')
 st.set_page_config(layout="wide", page_icon=page_icon)
 
 # Use HTML and CSS to center and bold the text

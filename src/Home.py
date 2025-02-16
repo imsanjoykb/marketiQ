@@ -5,9 +5,6 @@ import templates.teams
 import templates.products_list
 import templates.page_config
 
-load_dotenv()
-base_url = os.environ.get('BASE_URL')
-
 def home():
     # Define the image URL 
     #image_url = "https://drive.google.com/uc?id=1h6EmxpB0v0UB2bH70nGG1mqDZ_kWUgXm"
