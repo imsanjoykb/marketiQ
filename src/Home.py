@@ -1,7 +1,4 @@
 import streamlit as st
-import webbrowser
-import os
-from dotenv import load_dotenv
 import templates.pricing
 import templates.footer
 import templates.teams
